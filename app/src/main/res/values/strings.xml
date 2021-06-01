@@ -4,6 +4,7 @@
     <string name="yellow_star">Yellow star</string>
     <string name="bio_text">Hi, my name is Andre.
         \n\nI`m an Android Developer at Positivo Technology.
-        \n\nI like to play some games and I`m also a musician.
+        \n\nI like to play games and I`m also a musician.
     </string>
+    <string name="what_is_your_nickname">What is your nickname?</string>
 </resources>
