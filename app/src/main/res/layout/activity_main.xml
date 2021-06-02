@@ -26,6 +26,14 @@
         android:inputType="textPersonName"
         android:textAlignment="center" />
 
+    <Button
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="@string/Done" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
@@ -33,6 +41,14 @@
         android:layout_marginTop="@dimen/layout_margin"
         android:contentDescription="@string/yellow_star"
         app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textAlignment="center" />
 
     <ScrollView
         android:id="@+id/bio_scroll"
